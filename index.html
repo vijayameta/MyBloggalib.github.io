@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog.Ameta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .img {
+            height: 12vh;
+            border: 2px solid red;
+            border-radius: 50%;
+        }
+        
+        header {
+            display: block;
+            margin: auto;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            text-align: center;
+        }
+        
+        .container {
+            background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80") no-repeat center center/cover;
+            /* background-color: antiquewhite; */
+            height: 120vh;
+            margin: 0 150px;
+            padding: 26px;
+            /* opacity: 0.7; */
+            /* z-index: -1; */
+
+        }
+
+        .fa-light {
+            background-color: white;
+        }
+
+        .BgImage {
+            position: relative;
+            bottom: 35px;
+            left: 82%;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+
+        .quotes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+            font-size: 1.7rem;
+        }
+
+        .name {
+            color: black;
+            text-align: center;
+        }
+
+        .signature {
+            display: inline-block;
+            position: relative;
+            height: 20vh;
+            left: 800px;
+            bottom: 100px;
+            font-size: 2.2rem;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Baloo 2', cursive;
+        }
+
+        ul li {
+            margin: 3px 18px;
+            list-style: none;
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+
+        /* ul li a:hover {
+            background-color: rgba(12, 12, 11, 0.836);
+            border: 2px solid black;
+            font-size: 1.2rem;
+        } */
+
+        footer {
+            text-align: center;
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+        }
+
+        @media screen and (min-width: 300px) {
+            .fonts {
+                display: inline-block;
+                margin: auto;
+                font-size: 0.8rem;
+                text-align: center;
+            }
+            .container {
+            background: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80") no-repeat center center/cover;
+            /* background-color: antiquewhite; */
+            /* height: 120vh; */
+            /* margin: 0 150px; */
+            /* padding: 26px; */
+            /* opacity: 0.7; */
+            /* z-index: -1; */
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="img" src="img/mirza galib.jpg" alt="#">
+        <h1 style=" font-family: Angeline_Vintage">Galib</h1>
+        <nav>
+            <div class="item">
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.github.io/" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.github.io/" target="_blank"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h3 style=" font-family: 'Baloo 2', cursive;">Page 01</h3>
+                <img class="BgImage" src="img/Ghalib-Kaun-Hai.jpg" alt="">
+                <br>
+                <div class="name">
+                    <h4>
+                        <p>
+                        <pre>जब मीर ने ग़ालिब के बारे में एक अजीब बात कही</pre>
+                        </p>
+                    </h4>
+                </div>
+                <br>
+                <div class="quotes">
+                    <p>
+                    <pre class="fonts">    " पूछते हैं वो कि ‘ग़ालिब’ कौन है
+
+                              कोई बतलाओ कि हम बतलाएँ क्या "</pre>
+                    </p>
+                </div>
+                <div class="signature">
+                    <p>- Mirza Galib</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyrights &copy; All rights reserved</p>
+
+    </footer>
+
+</body>
+
+</html>
